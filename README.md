@@ -21,10 +21,10 @@ Este trabajo está construido con C# y constituido de la siguiente manera:
 
 ### Tabla de contenido
 
-- [Patrón decorator][#Definición del problema 1 que se desean abordar]
-* [Diagrama UML][#Diagrma UML 1] 
-- [Patrón adapter][#Definición del problema 2 que se desean abordar]
-* [Diagrama UML][#Diagrma UML 2] 
+- [Patrón decorator][#definición del problema 1 que se desean abordar]
+* [Diagrama UML][#diagrma UML 1] 
+- [Patrón adapter][#definición del problema 2 que se desean abordar]
+* [Diagrama UML][#diagrma UML 2] 
 
 
 ## Definición del problema 1 que se desean abordar:
