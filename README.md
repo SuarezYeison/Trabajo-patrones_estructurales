@@ -547,7 +547,7 @@ if (resultadoBitcoin)
     Resultado del reembolso: True
 
 
-### Diagrma UML 1
+### Diagrma UML 2
 
 ```mermaid
 classDiagram
