@@ -28,6 +28,7 @@ Este trabajo está construido con C# y constituido de la siguiente manera:
   * [Diagrama UML](#diagrama-uml-2)
 
 
+
 ## Definición del problema 1 que se desean abordar:
 Se tiene un sistema de notificaciones en el que estas se envía por correo, sin embargo debe funcionar para multiples sistemas y cada vez se vuelve más grande, ya que queriendose respetar el principio Open/Close de SOLID extender la funcionalidad por medio de la herencia se vuelve complejo. 
 
@@ -222,7 +223,7 @@ notificadorCompleto.Enviar("Mensaje importante y confidencial");
     [HTML] Formateando mensaje a HTML
     Enviando mensaje por Teams: <html><body><p>¡URGENTE! Mensaje importante y confidencial</p></body></html>
 
-### Diagrma UML 1
+### Diagrama UML 1
 
 ```mermaid
 classDiagram
@@ -547,7 +548,7 @@ if (resultadoBitcoin)
     Resultado del reembolso: True
 
 
-### Diagrma UML 2
+### Diagrama UML 2
 
 ```mermaid
 classDiagram
