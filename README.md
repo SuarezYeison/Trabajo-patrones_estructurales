@@ -285,6 +285,7 @@ classDiagram
     DecoradorNotificador o-- INotificador : decora >
 ```
 <br>
+***
 
 ## Definición del problema 2 que se desean abordar:
 Se tiene una pasarela de pagos en la que queremos hacer transferencias y reembolsos con diferentes medios de pago y transferencia, estas usan APIs en las qu se hacen transacciones, sin embargo cada uno de los métodos de uso de las API no se adapta a los nuevos estandares de las pasarelas de pago, se necesita adaptar las APIs.
