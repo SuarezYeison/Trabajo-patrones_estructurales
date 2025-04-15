@@ -27,7 +27,7 @@ Este trabajo está construido con C# y constituido de la siguiente manera:
 - [Patrón Adapter](#definición-del-problema-2-que-se-desean-abordar)
   * [Diagrama UML](#diagrama-uml-2)
 
-
+<br>
 
 ## Definición del problema 1 que se desean abordar:
 Se tiene un sistema de notificaciones en el que estas se envía por correo, sin embargo debe funcionar para multiples sistemas y cada vez se vuelve más grande, ya que queriendose respetar el principio Open/Close de SOLID extender la funcionalidad por medio de la herencia se vuelve complejo. 
@@ -284,6 +284,7 @@ classDiagram
     
     DecoradorNotificador o-- INotificador : decora >
 ```
+<br>
 
 ## Definición del problema 2 que se desean abordar:
 Se tiene una pasarela de pagos en la que queremos hacer transferencias y reembolsos con diferentes medios de pago y transferencia, estas usan APIs en las qu se hacen transacciones, sin embargo cada uno de los métodos de uso de las API no se adapta a los nuevos estandares de las pasarelas de pago, se necesita adaptar las APIs.
